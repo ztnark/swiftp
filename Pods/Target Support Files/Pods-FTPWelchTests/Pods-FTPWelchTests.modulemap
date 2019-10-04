@@ -1,0 +1,6 @@
+framework module Pods_FTPWelchTests {
+  umbrella header "Pods-FTPWelchTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

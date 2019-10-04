@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1985593BD0062939161782F4 /* Pods_FTPWelchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65AAF2129973A677BD1A04D /* Pods_FTPWelchTests.framework */; };
+		2D68025E43BD34186FFFFBD7 /* Pods_FTPWelch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFC3D517FF0F2EFDF5236DF /* Pods_FTPWelch.framework */; };
+		3A87EE7794814C2687C64AC0 /* Pods_FTPWelchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3459A24606F3DBE5237317F /* Pods_FTPWelchUITests.framework */; };
+		90C872442346E3D7009978B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C872432346E3D7009978B6 /* AppDelegate.swift */; };
+		90C872462346E3D7009978B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C872452346E3D7009978B6 /* SceneDelegate.swift */; };
+		90C872482346E3D7009978B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C872472346E3D7009978B6 /* ViewController.swift */; };
+		90C8724B2346E3D7009978B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C872492346E3D7009978B6 /* Main.storyboard */; };
+		90C8724D2346E3D8009978B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90C8724C2346E3D8009978B6 /* Assets.xcassets */; };
+		90C872502346E3D8009978B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C8724E2346E3D8009978B6 /* LaunchScreen.storyboard */; };
+		90C8725B2346E3D8009978B6 /* FTPWelchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8725A2346E3D8009978B6 /* FTPWelchTests.swift */; };
+		90C872662346E3D9009978B6 /* FTPWelchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C872652346E3D9009978B6 /* FTPWelchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90C872572346E3D8009978B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90C872382346E3D7009978B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90C8723F2346E3D7009978B6;
+			remoteInfo = FTPWelch;
+		};
+		90C872622346E3D9009978B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90C872382346E3D7009978B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90C8723F2346E3D7009978B6;
+			remoteInfo = FTPWelch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E42053273B27CEA005C7B89 /* Pods-FTPWelch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTPWelch.release.xcconfig"; path = "Target Support Files/Pods-FTPWelch/Pods-FTPWelch.release.xcconfig"; sourceTree = "<group>"; };
+		0E94870A220E00002914DB00 /* Pods-FTPWelchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTPWelchTests.debug.xcconfig"; path = "Target Support Files/Pods-FTPWelchTests/Pods-FTPWelchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2167C484A66B071E47984763 /* Pods-FTPWelchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTPWelchUITests.release.xcconfig"; path = "Target Support Files/Pods-FTPWelchUITests/Pods-FTPWelchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8289D1B7EFF3886277CBCF32 /* Pods-FTPWelchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTPWelchUITests.debug.xcconfig"; path = "Target Support Files/Pods-FTPWelchUITests/Pods-FTPWelchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		90C872402346E3D7009978B6 /* FTPWelch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTPWelch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C872432346E3D7009978B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90C872452346E3D7009978B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		90C872472346E3D7009978B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90C8724A2346E3D7009978B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90C8724C2346E3D8009978B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90C8724F2346E3D8009978B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90C872512346E3D8009978B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90C872562346E3D8009978B6 /* FTPWelchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTPWelchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C8725A2346E3D8009978B6 /* FTPWelchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTPWelchTests.swift; sourceTree = "<group>"; };
+		90C8725C2346E3D8009978B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90C872612346E3D9009978B6 /* FTPWelchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTPWelchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C872652346E3D9009978B6 /* FTPWelchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTPWelchUITests.swift; sourceTree = "<group>"; };
+		90C872672346E3D9009978B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3459A24606F3DBE5237317F /* Pods_FTPWelchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTPWelchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80A593BBB888D39E5CCA69E /* Pods-FTPWelchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTPWelchTests.release.xcconfig"; path = "Target Support Files/Pods-FTPWelchTests/Pods-FTPWelchTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACFC3D517FF0F2EFDF5236DF /* Pods_FTPWelch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTPWelch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B8C400AE12625AB8E15963 /* Pods-FTPWelch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTPWelch.debug.xcconfig"; path = "Target Support Files/Pods-FTPWelch/Pods-FTPWelch.debug.xcconfig"; sourceTree = "<group>"; };
+		B65AAF2129973A677BD1A04D /* Pods_FTPWelchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTPWelchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90C8723D2346E3D7009978B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D68025E43BD34186FFFFBD7 /* Pods_FTPWelch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90C872532346E3D8009978B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1985593BD0062939161782F4 /* Pods_FTPWelchTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90C8725E2346E3D9009978B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A87EE7794814C2687C64AC0 /* Pods_FTPWelchUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90C872372346E3D7009978B6 = {
+			isa = PBXGroup;
+			children = (
+				90C872422346E3D7009978B6 /* FTPWelch */,
+				90C872592346E3D8009978B6 /* FTPWelchTests */,
+				90C872642346E3D9009978B6 /* FTPWelchUITests */,
+				90C872412346E3D7009978B6 /* Products */,
+				CFAD383213CA7F009E5467AD /* Pods */,
+				B48C0279932E6753A5E77DEA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		90C872412346E3D7009978B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90C872402346E3D7009978B6 /* FTPWelch.app */,
+				90C872562346E3D8009978B6 /* FTPWelchTests.xctest */,
+				90C872612346E3D9009978B6 /* FTPWelchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90C872422346E3D7009978B6 /* FTPWelch */ = {
+			isa = PBXGroup;
+			children = (
+				90C872432346E3D7009978B6 /* AppDelegate.swift */,
+				90C872452346E3D7009978B6 /* SceneDelegate.swift */,
+				90C872472346E3D7009978B6 /* ViewController.swift */,
+				90C872492346E3D7009978B6 /* Main.storyboard */,
+				90C8724C2346E3D8009978B6 /* Assets.xcassets */,
+				90C8724E2346E3D8009978B6 /* LaunchScreen.storyboard */,
+				90C872512346E3D8009978B6 /* Info.plist */,
+			);
+			path = FTPWelch;
+			sourceTree = "<group>";
+		};
+		90C872592346E3D8009978B6 /* FTPWelchTests */ = {
+			isa = PBXGroup;
+			children = (
+				90C8725A2346E3D8009978B6 /* FTPWelchTests.swift */,
+				90C8725C2346E3D8009978B6 /* Info.plist */,
+			);
+			path = FTPWelchTests;
+			sourceTree = "<group>";
+		};
+		90C872642346E3D9009978B6 /* FTPWelchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90C872652346E3D9009978B6 /* FTPWelchUITests.swift */,
+				90C872672346E3D9009978B6 /* Info.plist */,
+			);
+			path = FTPWelchUITests;
+			sourceTree = "<group>";
+		};
+		B48C0279932E6753A5E77DEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACFC3D517FF0F2EFDF5236DF /* Pods_FTPWelch.framework */,
+				B65AAF2129973A677BD1A04D /* Pods_FTPWelchTests.framework */,
+				A3459A24606F3DBE5237317F /* Pods_FTPWelchUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFAD383213CA7F009E5467AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3B8C400AE12625AB8E15963 /* Pods-FTPWelch.debug.xcconfig */,
+				0E42053273B27CEA005C7B89 /* Pods-FTPWelch.release.xcconfig */,
+				0E94870A220E00002914DB00 /* Pods-FTPWelchTests.debug.xcconfig */,
+				A80A593BBB888D39E5CCA69E /* Pods-FTPWelchTests.release.xcconfig */,
+				8289D1B7EFF3886277CBCF32 /* Pods-FTPWelchUITests.debug.xcconfig */,
+				2167C484A66B071E47984763 /* Pods-FTPWelchUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90C8723F2346E3D7009978B6 /* FTPWelch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90C8726A2346E3D9009978B6 /* Build configuration list for PBXNativeTarget "FTPWelch" */;
+			buildPhases = (
+				1C4AD9D4482BE4EAA5A320DE /* [CP] Check Pods Manifest.lock */,
+				90C8723C2346E3D7009978B6 /* Sources */,
+				90C8723D2346E3D7009978B6 /* Frameworks */,
+				90C8723E2346E3D7009978B6 /* Resources */,
+				102F90BE254B3F2E87FEF82A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTPWelch;
+			productName = FTPWelch;
+			productReference = 90C872402346E3D7009978B6 /* FTPWelch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90C872552346E3D8009978B6 /* FTPWelchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90C8726D2346E3D9009978B6 /* Build configuration list for PBXNativeTarget "FTPWelchTests" */;
+			buildPhases = (
+				DB6F8C7FEB95874D8A2257E3 /* [CP] Check Pods Manifest.lock */,
+				90C872522346E3D8009978B6 /* Sources */,
+				90C872532346E3D8009978B6 /* Frameworks */,
+				90C872542346E3D8009978B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90C872582346E3D8009978B6 /* PBXTargetDependency */,
+			);
+			name = FTPWelchTests;
+			productName = FTPWelchTests;
+			productReference = 90C872562346E3D8009978B6 /* FTPWelchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90C872602346E3D9009978B6 /* FTPWelchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90C872702346E3D9009978B6 /* Build configuration list for PBXNativeTarget "FTPWelchUITests" */;
+			buildPhases = (
+				F187FB38256BD960F1E8F19E /* [CP] Check Pods Manifest.lock */,
+				90C8725D2346E3D9009978B6 /* Sources */,
+				90C8725E2346E3D9009978B6 /* Frameworks */,
+				90C8725F2346E3D9009978B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90C872632346E3D9009978B6 /* PBXTargetDependency */,
+			);
+			name = FTPWelchUITests;
+			productName = FTPWelchUITests;
+			productReference = 90C872612346E3D9009978B6 /* FTPWelchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90C872382346E3D7009978B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = user914589;
+				TargetAttributes = {
+					90C8723F2346E3D7009978B6 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					90C872552346E3D8009978B6 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 90C8723F2346E3D7009978B6;
+					};
+					90C872602346E3D9009978B6 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 90C8723F2346E3D7009978B6;
+					};
+				};
+			};
+			buildConfigurationList = 90C8723B2346E3D7009978B6 /* Build configuration list for PBXProject "FTPWelch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90C872372346E3D7009978B6;
+			productRefGroup = 90C872412346E3D7009978B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90C8723F2346E3D7009978B6 /* FTPWelch */,
+				90C872552346E3D8009978B6 /* FTPWelchTests */,
+				90C872602346E3D9009978B6 /* FTPWelchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90C8723E2346E3D7009978B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C872502346E3D8009978B6 /* LaunchScreen.storyboard in Resources */,
+				90C8724D2346E3D8009978B6 /* Assets.xcassets in Resources */,
+				90C8724B2346E3D7009978B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90C872542346E3D8009978B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90C8725F2346E3D9009978B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		102F90BE254B3F2E87FEF82A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FTPWelch/Pods-FTPWelch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FTPWelch/Pods-FTPWelch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FTPWelch/Pods-FTPWelch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C4AD9D4482BE4EAA5A320DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FTPWelch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB6F8C7FEB95874D8A2257E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FTPWelchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F187FB38256BD960F1E8F19E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FTPWelchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90C8723C2346E3D7009978B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C872482346E3D7009978B6 /* ViewController.swift in Sources */,
+				90C872442346E3D7009978B6 /* AppDelegate.swift in Sources */,
+				90C872462346E3D7009978B6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90C872522346E3D8009978B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C8725B2346E3D8009978B6 /* FTPWelchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90C8725D2346E3D9009978B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C872662346E3D9009978B6 /* FTPWelchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90C872582346E3D8009978B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90C8723F2346E3D7009978B6 /* FTPWelch */;
+			targetProxy = 90C872572346E3D8009978B6 /* PBXContainerItemProxy */;
+		};
+		90C872632346E3D9009978B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90C8723F2346E3D7009978B6 /* FTPWelch */;
+			targetProxy = 90C872622346E3D9009978B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90C872492346E3D7009978B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90C8724A2346E3D7009978B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90C8724E2346E3D8009978B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90C8724F2346E3D8009978B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90C872682346E3D9009978B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90C872692346E3D9009978B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90C8726B2346E3D9009978B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3B8C400AE12625AB8E15963 /* Pods-FTPWelch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FTPWelch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.welch.test.FTPWelch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90C8726C2346E3D9009978B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E42053273B27CEA005C7B89 /* Pods-FTPWelch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FTPWelch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.welch.test.FTPWelch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90C8726E2346E3D9009978B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E94870A220E00002914DB00 /* Pods-FTPWelchTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FTPWelchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.welch.test.FTPWelchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTPWelch.app/FTPWelch";
+			};
+			name = Debug;
+		};
+		90C8726F2346E3D9009978B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80A593BBB888D39E5CCA69E /* Pods-FTPWelchTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FTPWelchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.welch.test.FTPWelchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTPWelch.app/FTPWelch";
+			};
+			name = Release;
+		};
+		90C872712346E3D9009978B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8289D1B7EFF3886277CBCF32 /* Pods-FTPWelchUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FTPWelchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.welch.test.FTPWelchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FTPWelch;
+			};
+			name = Debug;
+		};
+		90C872722346E3D9009978B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2167C484A66B071E47984763 /* Pods-FTPWelchUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FTPWelchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.welch.test.FTPWelchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FTPWelch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90C8723B2346E3D7009978B6 /* Build configuration list for PBXProject "FTPWelch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90C872682346E3D9009978B6 /* Debug */,
+				90C872692346E3D9009978B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90C8726A2346E3D9009978B6 /* Build configuration list for PBXNativeTarget "FTPWelch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90C8726B2346E3D9009978B6 /* Debug */,
+				90C8726C2346E3D9009978B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90C8726D2346E3D9009978B6 /* Build configuration list for PBXNativeTarget "FTPWelchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90C8726E2346E3D9009978B6 /* Debug */,
+				90C8726F2346E3D9009978B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90C872702346E3D9009978B6 /* Build configuration list for PBXNativeTarget "FTPWelchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90C872712346E3D9009978B6 /* Debug */,
+				90C872722346E3D9009978B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90C872382346E3D7009978B6 /* Project object */;
+}
